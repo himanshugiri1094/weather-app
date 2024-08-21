@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myFont {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.gradientbg{
+    background: linear-gradient(to top, rgb(64, 20, 64), rgb(79, 26, 79));
+}
+
+.noscroll::-webkit-scrollbar{
+    display: none;
+}
+
+.gradientbg2{
+    background: linear-gradient(to top, rgb(23, 53, 87), rgb(41, 92, 158));
+}
+
+.gradientbg3{
+    background: linear-gradient(to top, rgb(61, 58, 58), rgb(126, 120, 126));
+}
